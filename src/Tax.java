@@ -25,7 +25,7 @@ public class Tax {
             IncomeRange[x] = sc.nextInt();// รับค่าเงินเดือนขั้นต่ำ
             TaxRate[x] = sc.nextInt();// รับค่าอัตราภาษีตามเงินเดือน
         }
-        System.out.print("Please enter tax rate if income > 750000 : ");
+        System.out.print("Please enter tax rate if income > " + IncomeRange[3] + " : ");
         int MaxTaxRate = sc.nextInt(); // รับค่าอัตราภาษีสูงสุด
         System.out.print("Please enter income: ");
         int Income = sc.nextInt();//รับค่า รายได้ต่อปี
