@@ -31,6 +31,7 @@ public class Tax {
         int Income = sc.nextInt();//รับค่า รายได้ต่อปี
         int temp = Income; // เก็บค่ารายได้ต่อปีเพื่อนำไปคำนวน
 
+        // ประมวลผล และ แสดงผล
         for (int x = 0; x < 4; x++) {
             if (x == 0 && TaxRate[x] == 0) {
                 System.out.print("0 - " + IncomeRange[x]);
